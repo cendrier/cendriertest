@@ -6,5 +6,9 @@ pipeline {
         echo 'first stage sample'
       }
     }
-  }
+    stage('stage2') {
+      steps {
+        echo 'second stage sample'  
+      }
+    }
 }
